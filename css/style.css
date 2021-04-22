@@ -25,28 +25,28 @@ header{
 }
 /* box blu */
 .container{
-    background-color: mediumblue;
+    background-color:dodgerblue;
 }
 .clearfix::after {
     content:'';
     display: table;
-    clear: both;
-    background-color: mediumblue;
+    clear: both;  
 }
 
 .righelato, .boxcentro{
     background-color: skyblue;
     float: left;
 }
+   
 .righelato{
-    width: 23%;
-    margin: 1%;
+    width: 24%;
+    margin-top: 1%;
     background-color: skyblue;
     /* queste altezze poi verranno tolte */
     height: 300px; 
 }   
 .boxcentro{
-    width: 48%;
+    width: 49%;
     margin: 1%;
     background-color: skyblue;
      /* queste altezze poi verranno tolte */
