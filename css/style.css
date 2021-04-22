@@ -39,16 +39,17 @@ header{
 }
    
 .righelato{
-    width: 24%;
+    width: calc(50% / 2);
     margin-top: 1%;
     background-color: skyblue;
     /* queste altezze poi verranno tolte */
     height: 300px; 
 }   
 .boxcentro{
-    width: 49%;
+    width: 48%;
     margin: 1%;
     background-color: skyblue;
      /* queste altezze poi verranno tolte */
     height: 300px;
 }
+
