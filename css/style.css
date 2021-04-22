@@ -3,11 +3,52 @@
     margin: 0;
     padding: 0;
 }
+body{
+    padding: 30px;
+}
+/* riga header */
 header{
     background-color:violet;
     height: 100px;
     margin-bottom: 30px;
 }
-body{
-    padding: 30px;
+/* prima box gialla */
+.yellowbox{
+    background-color:palegoldenrod;
+    height: 600px;
+    margin-bottom: 30px;
+}
+/* prima linea blu */
+.blueline{
+    background-color: skyblue;
+    height: 50px;
+}
+/* box blu */
+.container{
+    background-color: mediumblue;
+}
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
+    background-color: mediumblue;
+}
+
+.righelato, .boxcentro{
+    background-color: skyblue;
+    float: left;
+}
+.righelato{
+    width: 23%;
+    margin: 1%;
+    background-color: skyblue;
+    /* queste altezze poi verranno tolte */
+    height: 300px; 
+}   
+.boxcentro{
+    width: 48%;
+    margin: 1%;
+    background-color: skyblue;
+     /* queste altezze poi verranno tolte */
+    height: 300px;
 }
