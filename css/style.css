@@ -52,4 +52,10 @@ header{
      /* queste altezze poi verranno tolte */
     height: 300px;
 }
+/* riga footer */
+footer {
+    background-color: purple;
+    height: 100px;
+    margin-top: 30px;
+}
 
